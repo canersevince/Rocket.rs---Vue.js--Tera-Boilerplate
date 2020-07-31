@@ -1,0 +1,17 @@
+[package]
+name = "RocketRsWebsite"
+version = "0.1.0"
+authors = ["canersevince"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.5"
+rocket_codegen = "0.4.5"
+serde ="1.0.37"
+serde_derive = "1.0.37"
+[dependencies.rocket_contrib]
+version = "*"
+default_features = false
+features= ["tera_templates", "serve", "json"]
