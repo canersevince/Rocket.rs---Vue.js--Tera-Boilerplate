@@ -7,6 +7,8 @@ git clone https://github.com/canersevince/Rocket.rs---Vue.js--Tera-Boilerplate
 
 cd into project folder
 Type "cargo run" into your terminal.
+You have to use rusty nightly.
+If you get error, run "rustup run nightly cargo run"
 
 # Introduction
 This is a rocket.rs - vue.js a boilerplate with tera templates.
